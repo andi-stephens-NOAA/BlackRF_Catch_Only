@@ -1,5 +1,5 @@
 SS-V3.24V-safe;_03/08/2015;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_11.1x64
-Tue Apr 02 16:16:53 2019
+Mon Apr 08 17:11:07 2019
 
 BLK_WA_dat.ss  datfilename
 BLK_WA_ctl.ss  ctlfilename
@@ -523,7 +523,7 @@ Processed
  0.36566 2
  0.731126 2
  270.69 2
- -1 0
+ -1 1.37181e-311
  -1 0
  -1 0
  done reading forecast 

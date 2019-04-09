@@ -11,7 +11,7 @@
 1 #Bmark_relF_Basis: 1 = use year range; 2 = set relF same as forecast below
 #
 1 # Forecast: 0=none; 1=F(SPR); 2=F(MSY) 3=F(Btgt); 4=Ave F (uses first-last relF yrs); 5=input annual F scalar
-16 # N forecast years 
+17 # N forecast years 
 1 # F scalar (only used for Do_Forecast==5)
 #_Fcast_years:  beg_selex, end_selex, beg_relF, end_relF  (enter actual year, or values of 0 or -integer to be rel. endyr)
  0 0 0 0
@@ -25,7 +25,7 @@
 0 #_Forecast loop control #3 (reserved for future bells&whistles) 
 0 #_Forecast loop control #4 (reserved for future bells&whistles) 
 0 #_Forecast loop control #5 (reserved for future bells&whistles) 
-2050  #FirstYear for caps and allocations (should be after years with fixed inputs) 
+2056  #FirstYear for caps and allocations (should be after years with fixed inputs) 
 0 # stddev of log(realized catch/target catch) in forecast (set value>0.0 to cause active impl_error)
 0 # Do West Coast gfish rebuilder output (0/1) 
 0 # Rebuilder:  first year catch could have been set to zero (Ydecl)(-1 to set to 1999)
@@ -46,33 +46,33 @@
 #_Conditional on >1 allocation group
 # allocation fraction for each of: 0 allocation groups
 # no allocation groups
-60 # Number of forecast catch levels to input (else calc catch from forecast F) 
+64 # Number of forecast catch levels to input (else calc catch from forecast F) 
 2 # basis for input Fcast catch:  2=dead catch; 3=retained catch; 99=input Hrate(F) (units are from fleetunits; note new codes in SSV3.20)
 # Input fixed catch values
 #
-2015	1	1	0.077894483	
-2015	1	2	37.95859	
-2015	1	3	65.10945845	
-2015	1	4	227.36	
-2016	1	1	0.273980028	
-2016	1	2	31.10343	
-2016	1	3	33.23841767	
-2016	1	4	165.78	
-2017	1	1	0.001814388	
-2017	1	2	19.86903	
-2017	1	3	34.56486075	
-2017	1	4	97.28	
-2018	1	1	0.013849122	
-2018	1	2	18.59817	
-2018	1	3	27.37520849	
-2018	1	4	92.19	
-2019	1	1	0.091884505	
-2019	1	2	36	
-2019	1	3	64	
-2019	1	4	165.1	
-2020	1	1	0.091884505	
-2020	1	2	36	
-2020	1	3	64	
+2015	1	1	0.077894483
+2015	1	2	37.95859
+2015	1	3	65.10945845
+2015	1	4	227.36
+2016	1	1	0.273980028
+2016	1	2	31.10343
+2016	1	3	33.23841767
+2016	1	4	165.78
+2017	1	1	0.001814388
+2017	1	2	19.86903
+2017	1	3	34.56486075
+2017	1	4	97.28
+2018	1	1	0.013849122
+2018	1	2	18.59817
+2018	1	3	27.37520849
+2018	1	4	92.19
+2019	1	1	0.091884505
+2019	1	2	36
+2019	1	3	64
+2019	1	4	165.1
+2020	1	1	0.091884505
+2020	1	2	36
+2020	1	3	64
 2020	1	4	165.1
 2021	1	1	0.150312752
 2021	1	2	44.9499513
@@ -110,5 +110,8 @@
 2029	1	2	40.0189013
 2029	1	3	63.08764635
 2029	1	4	193.761629
-#
+2030	1	1	0.131988995
+2030	1	2	39.47036308
+2030	1	3	62.22290534
+2030	1	4	191.1057426
 999 # verify end of input 
