@@ -16,7 +16,7 @@ BLK_OR_ctl.ss
 1 # MCeval thin interval
 0 # jitter initial parm value by this fraction
 1890 # min yr for sdreport outputs (-1 for styr)
-2030 # max yr for sdreport outputs (-1 for endyr; -2 for endyr+Nforecastyrs
+2028 # max yr for sdreport outputs (-1 for endyr; -2 for endyr+Nforecastyrs
 0 # N individual STD years 
 #vector of year values 
 

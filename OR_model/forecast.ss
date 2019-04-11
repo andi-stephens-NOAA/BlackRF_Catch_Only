@@ -11,7 +11,7 @@
 1 #Bmark_relF_Basis:_1_=_use_year_range;_2_=_set_relF_same_as_forecast_below
 #
 1 #_Forecast:_0=none;_1=F(SPR);_2=F(MSY)_3=F(Btgt);_4=Ave_F_(uses_first-last_relF_yrs);_5=input_annual_F_scalar
-16 #_N_forecast_years
+14 #_N_forecast_years
 1 #_F_scalar_(only_used_for_Do_Forecast==5)
 #_Fcast_years:__beg_selex,_end_selex,_beg_relF,_end_relF__(enter_actual_year,_or_values_of_0_or_-integer_to_be_rel._endyr)
  0 0 0 0
@@ -19,7 +19,7 @@
 1 #_Control_rule_method_(1=catch=f(SSB)_west_coast;_2=F=f(SSB)_)
 0.4 #_Control_rule_Biomass_level_for_constant_F_(as_frac_of_Bzero,_e.g._0.40);_(Must_be_>_the_no_F_level_below)
 0.1 #_Control_rule_Biomass_level_for_no_F_(as_frac_of_Bzero,_e.g._0.10)
-0.67 #_Control_rule_target_as_fraction_of_Flimit_(e.g._0.75)
+0.788 #_Control_rule_target_as_fraction_of_Flimit_(e.g._0.75)
 3 #_N_forecast_loops_(1=OFL_only;_2=ABC;_3=get_F_from_forecast_ABC_catch_with_allocations_applied)
 3 #_First_forecast_loop_with_stochastic_recruitment
 0 #_Forecast_loop_control_#3_(reserved_for_future_bells&whistles)
@@ -46,7 +46,7 @@
 #_Conditional_on_>1_allocation_group
 #_allocation_fraction_for_each_of:_0_allocation_groups
 #_no_allocation_groups
-75 #_Number_of_forecast_catch_levels_to_input_(else_calc_catch_from_forecast_F)_
+65 #_Number_of_forecast_catch_levels_to_input_(else_calc_catch_from_forecast_F)_
 2 #_code_means_to_read_fleet/time_specific_basis_(2=dead_catch;_3=retained_catch;_99=F)__as_below_(units_are_from_fleetunits;_note_new_codes_in_SSV3.20)
 #_Input_fixed_catch_values
 #_Year Seas Fleet Catch(or_F)_Basis
@@ -81,50 +81,40 @@
 2020	1	2	68.215271		
 2020	1	4	375.4		
 2020	1	5	13.7		
-2021	1	1	0.027591428
-2021	1	3	47.07327912
-2021	1	2	59.52320945
-2021	1	4	323.94292
-2021	1	5	13.7
-2022	1	1	0.02771241
-2022	1	3	47.27968371
-2022	1	2	59.78420388
-2022	1	4	325.4234
-2022	1	5	13.7
-2023	1	1	0.027096447
-2023	1	3	46.22880038
-2023	1	2	58.45538317
-2023	1	4	317.88572
-2023	1	5	13.7
-2024	1	1	0.026852435
-2024	1	3	45.81249462
-2024	1	2	57.92897295
-2024	1	4	314.89968
-2024	1	5	13.7
-2025	1	1	0.026237714
-2025	1	3	44.76373044
-2025	1	2	56.60283185
-2025	1	4	307.3772
-2025	1	5	13.7
-2026	1	1	0.025990721
-2026	1	3	44.34233873
-2026	1	2	56.06999055
-2026	1	4	304.35468
-2026	1	5	13.7
-2027	1	1	0.025733418
-2027	1	3	43.90335812
-2027	1	2	55.51490846
-2027	1	4	301.206
-2027	1	5	13.7
-2028	1	1	0.025105034
-2028	1	3	42.83128336
-2028	1	2	54.1592916
-2028	1	4	293.51632
-2028	1	5	13.7
-2029	1	1	0.024856426
-2029	1	3	42.40713676
-2029	1	2	53.62296681
-2029	1	4	290.47404
-2029	1	5	13.7
+2021	1	1	0.029749222
+2021	1	3	50.75465543
+2021	1	2	64.17823535
+2021	1	4	351.6141729
+2021	1	5	12.43418712
+2022	1	1	0.029440868
+2022	1	3	50.22857803
+2022	1	2	63.51302111
+2022	1	4	347.9696546
+2022	1	5	12.30530544
+2023	1	1	0.029189589
+2023	1	3	49.79987527
+2023	1	2	62.97093514
+2023	1	4	344.9997208
+2023	1	5	12.20027921
+2024	1	1	0.028914524
+2024	1	3	49.33059091
+2024	1	2	62.37753456
+2024	1	4	341.748649
+2024	1	5	12.08531105
+2025	1	1	0.028649209
+2025	1	3	48.87794183
+2025	1	2	61.80516896
+2025	1	4	338.6128217
+2025	1	5	11.9744183
+2026	1	1	0.028426312
+2026	1	3	48.49766151
+2026	1	2	61.32431218
+2026	1	4	335.9783451
+2026	1	5	11.88125489
+2027	1	1	0.02817199
+2027	1	3	48.06376685
+2027	1	2	60.77566116
+2027	1	4	332.9724433
+2027	1	5	11.77495671
 #
 999 #_verify_end_of_input

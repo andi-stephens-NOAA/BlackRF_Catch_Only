@@ -11,7 +11,7 @@
 1 #Bmark_relF_Basis: 1 = use year range; 2 = set relF same as forecast below
 #
 1 # Forecast: 0=none; 1=F(SPR); 2=F(MSY) 3=F(Btgt); 4=Ave F (uses first-last relF yrs); 5=input annual F scalar
-16 # N forecast years 
+14 # N forecast years 
 1 # F scalar (only used for Do_Forecast==5)
 #_Fcast_years:  beg_selex, end_selex, beg_relF, end_relF  (enter actual year, or values of 0 or -integer to be rel. endyr)
  0 0 0 0
@@ -19,7 +19,7 @@
 1 # Control rule method (1=catch=f(SSB) west coast; 2=F=f(SSB) ) 
 0.4 # Control rule Biomass level for constant F (as frac of Bzero, e.g. 0.40); (Must be > the no F level below) 
 0.1 # Control rule Biomass level for no F (as frac of Bzero, e.g. 0.10) 
-0.82 # Control rule target as fraction of Flimit (e.g. 0.75) 
+0.887 # Control rule target as fraction of Flimit (e.g. 0.75) 
 3 #_N forecast loops (1=OFL only; 2=ABC; 3=get F from forecast ABC catch with allocations applied)
 3 #_First forecast loop with stochastic recruitment
 0 #_Forecast loop control #3 (reserved for future bells&whistles) 
@@ -46,7 +46,7 @@
 #_Conditional on >1 allocation group
 # allocation fraction for each of: 0 allocation groups
 # no allocation groups
-45 #Number of forecast catch levels to input (else calc catch from forecast F) 
+39 #Number of forecast catch levels to input (else calc catch from forecast F) 
 2 # basis for input Fcast catch:  2=dead catch; 3=retained catch; 99=input Hrate(F) (units are from fleetunits; note new codes in SSV3.20)
 # Input fixed catch values
 2015	1	1	0.964146653
@@ -67,32 +67,26 @@
 2020	1	1	0.45182322
 2020	1	2	0.713274
 2020	1	3	226.42
-2021	1	1	0.377734876
-2021	1	2	0.755269869
-2021	1	3	279.6289953
-2022	1	1	0.378371246
-2022	1	2	0.756542273
-2022	1	3	280.1000865
-2023	1	1	0.374838247
-2023	1	2	0.749478145
-2023	1	3	277.4846836
-2024	1	1	0.375934742
-2024	1	2	0.751670553
-2024	1	3	278.2963947
-2025	1	1	0.372738091
-2025	1	2	0.745278943
-2025	1	3	275.929983
-2026	1	1	0.369739213
-2026	1	2	0.739282774
-2026	1	3	273.709978
-2027	1	1	0.366868147
-2027	1	2	0.733542161
-2027	1	3	271.5845897
-2028	1	1	0.364054933
-2028	1	2	0.727917222
-2028	1	3	269.5020278
-2029	1	1	0.365659985
-2029	1	2	0.731126477
-2029	1	3	270.6902135
+2021	1	1	0.393617225
+2021	1	2	0.787026164
+2021	1	3	291.3863566
+2022	1	1	0.391663716
+2022	1	2	0.78312018
+2022	1	3	289.9402161
+2023	1	1	0.390047901
+2023	1	2	0.779889404
+2023	1	3	288.7440627
+2024	1	1	0.388292165
+2024	1	2	0.776378861
+2024	1	3	287.444329
+2025	1	1	0.387223924
+2025	1	2	0.774242944
+2025	1	3	286.6535331
+2026	1	1	0.386322511
+2026	1	2	0.772440596
+2026	1	3	285.9862369
+2027	1	1	0.385517967
+2027	1	2	0.770831933
+2027	1	3	285.3906501
 #
 999 # verify end of input 
