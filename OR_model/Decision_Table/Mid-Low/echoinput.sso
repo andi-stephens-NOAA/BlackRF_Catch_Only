@@ -1,5 +1,5 @@
 SS-V3.24V-safe;_03/08/2015;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_11.1x64
-Tue Apr 16 10:44:49 2019
+Wed Apr 17 13:56:53 2019
 
 BLK_OR_dat.ss  datfilename
 BLK_OR_ctl.ss  ctlfilename
@@ -562,14 +562,14 @@ TG area year seas tindex gender age N_released
 1  1=use range of years for relF; 2 = set same as forecast relF below
 1 Do_Forecast 
 Forecast selected; next 20 input values will be read as a block then parsed and procesed 
-16 N_Fcast_Yrs 
+7 N_Fcast_Yrs 
 1 Fmult value used only if Do_Forecast==5
  0 0 0 0 Begin-end yrs for average selex; begin-end yrs for allocation
  2014 2014 2014 2014  After Transformation:  begin-end yrs for average selex; begin-end yrs for rel F
 1  HarvestPolicy 
 0.4  H4010_top 
 0.1  H4010_bot 
-0.773  H4010_scale 
+0.841  H4010_scale 
 3 N forecast loops (1-3) (recommend 3)
 3 First forecast loop with stochastic recruitment (recommend 3)
 0 Forecast loop control #3 (reserved for future use) 
@@ -600,18 +600,9 @@ Now read cap for each fleet, then cap for each area (even if only 1 area), then 
 
 
 
-
-
-
-
-
-
-
-
-
-75 N_Fcast_input_catches 
+30 N_Fcast_input_catches 
 2 # basis for input Fcast catch:  2=dead catch; 3=retained catch; 99=input Hrate(F); -1=read fleet/time specific (bio/num units are from fleetunits; note new codes in SSV3.20)
-Now read 75 of fixed forecast catches (yr, seas, fleet, (basis,) catch_or_F) 
+Now read 30 of fixed forecast catches (yr, seas, fleet, (basis,) catch_or_F) 
  Fcast_catches_input 
  2015 1 1 0.0100401
  2015 1 3 50.7183
@@ -643,51 +634,6 @@ Now read 75 of fixed forecast catches (yr, seas, fleet, (basis,) catch_or_F)
  2020 1 2 68.2153
  2020 1 4 375.4
  2020 1 5 13.7
- 2021 1 1 0.0297492
- 2021 1 3 50.7547
- 2021 1 2 64.1782
- 2021 1 4 351.614
- 2021 1 5 12.4342
- 2022 1 1 0.0294409
- 2022 1 3 50.2286
- 2022 1 2 63.513
- 2022 1 4 347.97
- 2022 1 5 12.3053
- 2023 1 1 0.0291896
- 2023 1 3 49.7999
- 2023 1 2 62.9709
- 2023 1 4 345
- 2023 1 5 12.2003
- 2024 1 1 0.0289145
- 2024 1 3 49.3306
- 2024 1 2 62.3775
- 2024 1 4 341.749
- 2024 1 5 12.0853
- 2025 1 1 0.0286492
- 2025 1 3 48.8779
- 2025 1 2 61.8052
- 2025 1 4 338.613
- 2025 1 5 11.9744
- 2026 1 1 0.0284263
- 2026 1 3 48.4977
- 2026 1 2 61.3243
- 2026 1 4 335.978
- 2026 1 5 11.8813
- 2027 1 1 0.028172
- 2027 1 3 48.0638
- 2027 1 2 60.7757
- 2027 1 4 332.972
- 2027 1 5 11.775
- 2028 1 1 0.0279598
- 2028 1 3 47.7018
- 2028 1 2 60.318
- 2028 1 4 330.465
- 2028 1 5 11.6863
- 2029 1 1 0.0277166
- 2029 1 3 47.2868
- 2029 1 2 59.7932
- 2029 1 4 327.59
- 2029 1 5 11.5846
 Processed 
  0.0100401 2
  71.7856 2
@@ -719,51 +665,6 @@ Processed
  53.9473 2
  375.4 2
  13.7 2
- 0.0297492 2
- 64.1782 2
- 50.7547 2
- 351.614 2
- 12.4342 2
- 0.0294409 2
- 63.513 2
- 50.2286 2
- 347.97 2
- 12.3053 2
- 0.0291896 2
- 62.9709 2
- 49.7999 2
- 345 2
- 12.2003 2
- 0.0289145 2
- 62.3775 2
- 49.3306 2
- 341.749 2
- 12.0853 2
- 0.0286492 2
- 61.8052 2
- 48.8779 2
- 338.613 2
- 11.9744 2
- 0.0284263 2
- 61.3243 2
- 48.4977 2
- 335.978 2
- 11.8813 2
- 0.028172 2
- 60.7757 2
- 48.0638 2
- 332.972 2
- 11.775 2
- 0.0279598 2
- 60.318 2
- 47.7018 2
- 330.465 2
- 11.6863 2
- 0.0277166 2
- 59.7932 2
- 47.2868 2
- 327.59 2
- 11.5846 2
  -1 0
  -1 0
  -1 0
@@ -890,14 +791,14 @@ Note that Q parameters are in units of ln(q)
  0 5 0 0.01 -1 99 1
  0 5 0 0.01 -1 99 1
  0 5 0 0.01 -1 99 1
- -5 5 -2.4 -1.386 0 0.5 -1
+ -5 5 -0.223474 -1.386 0 0.5 -1
  processed Q parms 
  0 5 0 0.01 -1 99 1
  0 5 0 0.01 -1 99 -1
  0 5 0 0.01 -1 99 1
  0 5 0 0.01 -1 99 1
  0 5 0 0.01 -1 99 1
- -5 5 -2.4 -1.386 0 0.5 -1
+ -5 5 -0.223474 -1.386 0 0.5 -1
  selex types 
  24 0 4 0
  24 0 0 0
@@ -1022,13 +923,13 @@ After processing
 999  If you see 999, we got to the end of the control file successfully! 
 
 ***********************************
-N parameters: 140
-Parameters plus derived quant: 886
+N parameters: 122
+Parameters plus derived quant: 805
 Adjust the phases 
-Active parameters: 65
+Active parameters: 56
 Turn_off_phase 10
  max_phase 5
-Active parameters plus derived quantities:  812
+Active parameters plus derived quantities:  740
 here2
 end of parameter section
  do variance adjustment for surveys 
@@ -1096,7 +997,7 @@ Adjusted size at maxage: 45.1941
  0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17 0.17
  did wtlen and maturity
  made the age_age' key 
-bias_adjustment vector:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+bias_adjustment vector:  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 start initial conditions 
 Adjusted size at maxage: 52.8933
 Adjusted size at maxage: 45.1941

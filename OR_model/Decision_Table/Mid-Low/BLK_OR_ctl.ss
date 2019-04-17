@@ -163,7 +163,7 @@
 0	5	0	0.01	-1	99	1	#_Q_4.RecO
 0	5	0	0.01	-1	99	1	#_Q_5.RecS
 #
--5	5	-2.4	-1.386	0	0.5	-1	#_Q_6.Tag_Abundance-Lognormal_prior_<<<_Prior_is_ON
+-5	5	-0.223474	-1.386	0	0.5	-1	#_Q_6.Tag_Abundance-Lognormal_prior_<<<_Prior_is_ON
 #
 #-5	5	-1.386	-1.386	0	0.5	1	#_Q_6.Tag_Abundance-Lognormal_prior_<<<_Prior_is_ON
 #

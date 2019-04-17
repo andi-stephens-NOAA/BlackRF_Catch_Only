@@ -39,18 +39,18 @@
 #_LO HI INIT PRIOR PR_type SD PHASE env-var use_dev dev_minyr dev_maxyr dev_stddev Block Block_Fxn
  0.001 2 0.17 -2.33925 3 0.524 -2 0 0 0 0 0 0 0 # NatM_p_1_Fem_GP_1
  0.001 2 0.2 -2.33925 3 0.524 -2 0 0 0 0 0 0 0 # NatM_p_2_Fem_GP_1
- 5 30 20.0726 20.53 -1 99 2 0 0 0 0 0 0 0 # L_at_Amin_Fem_GP_1
- 35 65 48.3628 53.9 -1 99 2 0 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
- 0.01 1 0.245516 0.14 -1 99 2 0 0 0 0 0 0 0 # VonBert_K_Fem_GP_1
- 0.03 0.2 0.11897 0.1 -1 0.8 2 0 0 0 0 0 0 0 # CV_young_Fem_GP_1
- 0.03 0.2 0.0696025 0.1 -1 0.8 2 0 0 0 0 0 0 0 # CV_old_Fem_GP_1
+ 5 30 20.0595 20.53 -1 99 2 0 0 0 0 0 0 0 # L_at_Amin_Fem_GP_1
+ 35 65 49.0308 53.9 -1 99 2 0 0 0 0 0 0 0 # L_at_Amax_Fem_GP_1
+ 0.01 1 0.211086 0.14 -1 99 2 0 0 0 0 0 0 0 # VonBert_K_Fem_GP_1
+ 0.03 0.2 0.113205 0.1 -1 0.8 2 0 0 0 0 0 0 0 # CV_young_Fem_GP_1
+ 0.03 0.2 0.0814809 0.1 -1 0.8 2 0 0 0 0 0 0 0 # CV_old_Fem_GP_1
  0.001 2 0.17 -2.33925 3 0.524 -2 0 0 0 0 0 0 0 # NatM_p_1_Mal_GP_1
  0.001 2 0.17 -2.33925 3 0.524 -2 0 0 0 0 0 0 0 # NatM_p_2_Mal_GP_1
- 5 30 17.1578 26 -1 99 2 0 0 0 0 0 0 0 # L_at_Amin_Mal_GP_1
- 35 65 43.2384 45 -1 99 2 0 0 0 0 0 0 0 # L_at_Amax_Mal_GP_1
- 0.01 1 0.355754 0.14 -1 99 2 0 0 0 0 0 0 0 # VonBert_K_Mal_GP_1
- 0.03 0.2 0.144321 0.1 -1 0.8 2 0 0 0 0 0 0 0 # CV_young_Mal_GP_1
- 0.03 0.2 0.0644004 0.1 -1 0.8 2 0 0 0 0 0 0 0 # CV_old_Mal_GP_1
+ 5 30 16.8874 26 -1 99 2 0 0 0 0 0 0 0 # L_at_Amin_Mal_GP_1
+ 35 65 43.5623 45 -1 99 2 0 0 0 0 0 0 0 # L_at_Amax_Mal_GP_1
+ 0.01 1 0.32092 0.14 -1 99 2 0 0 0 0 0 0 0 # VonBert_K_Mal_GP_1
+ 0.03 0.2 0.170588 0.1 -1 0.8 2 0 0 0 0 0 0 0 # CV_young_Mal_GP_1
+ 0.03 0.2 0.0583907 0.1 -1 0.8 2 0 0 0 0 0 0 0 # CV_old_Mal_GP_1
  -3 3 2.602e-005 2.602e-005 -1 0.8 -99 0 0 0 0 0 0 0 # Wtlen_1_Fem
  -3 4 2.884 2.884 -1 0.8 -99 0 0 0 0 0 0 0 # Wtlen_2_Fem
  1 1000 43.69 43.69 -1 0.8 -3 0 0 0 0 0 0 0 # Mat50%_Fem
@@ -80,7 +80,7 @@
 #_Spawner-Recruitment
 3 #_SR_function: 2=Ricker; 3=std_B-H; 4=SCAA; 5=Hockey; 6=B-H_flattop; 7=survival_3Parm; 8=Shepard_3Parm
 #_LO HI INIT PRIOR PR_type SD PHASE
- 1 12 8.9915 8 -1 10 1 # SR_LN(R0)
+ 1 12 7.67565 8 -1 10 1 # SR_LN(R0)
  0.25 0.99 0.773 0.773 2 0.147 -3 # SR_BH_steep
  0 2 0.5 0.8 -1 0.8 -4 # SR_sigmaR
  -5 5 0.1 0 -1 1 -3 # SR_envlink
@@ -113,8 +113,8 @@
 #_Yr Input_value
 #
 # all recruitment deviations
-#DisplayOnly -3.55271e-015 # Late_RecrDev_2013
-#DisplayOnly 0 # Late_RecrDev_2014
+#DisplayOnly -8.19285e-009 # Late_RecrDev_2013
+#DisplayOnly -5.49383e-011 # Late_RecrDev_2014
 #DisplayOnly 0 # ForeRecr_2015
 #DisplayOnly 0 # ForeRecr_2016
 #DisplayOnly 0 # ForeRecr_2017
@@ -122,15 +122,6 @@
 #DisplayOnly 0 # ForeRecr_2019
 #DisplayOnly 0 # ForeRecr_2020
 #DisplayOnly 0 # ForeRecr_2021
-#DisplayOnly 0 # ForeRecr_2022
-#DisplayOnly 0 # ForeRecr_2023
-#DisplayOnly 0 # ForeRecr_2024
-#DisplayOnly 0 # ForeRecr_2025
-#DisplayOnly 0 # ForeRecr_2026
-#DisplayOnly 0 # ForeRecr_2027
-#DisplayOnly 0 # ForeRecr_2028
-#DisplayOnly 0 # ForeRecr_2029
-#DisplayOnly 0 # ForeRecr_2030
 #DisplayOnly 0 # Impl_err_2015
 #DisplayOnly 0 # Impl_err_2016
 #DisplayOnly 0 # Impl_err_2017
@@ -138,15 +129,6 @@
 #DisplayOnly 0 # Impl_err_2019
 #DisplayOnly 0 # Impl_err_2020
 #DisplayOnly 0 # Impl_err_2021
-#DisplayOnly 0 # Impl_err_2022
-#DisplayOnly 0 # Impl_err_2023
-#DisplayOnly 0 # Impl_err_2024
-#DisplayOnly 0 # Impl_err_2025
-#DisplayOnly 0 # Impl_err_2026
-#DisplayOnly 0 # Impl_err_2027
-#DisplayOnly 0 # Impl_err_2028
-#DisplayOnly 0 # Impl_err_2029
-#DisplayOnly 0 # Impl_err_2030
 #
 #Fishing Mortality info 
 0.3 # F ballpark for annual F (=Z-M) for specified year
@@ -184,12 +166,12 @@
 #_Cond 0 #_If q has random component, then 0=read one parm for each fleet with random q; 1=read a parm for each year of index
 #_Q_parms(if_any);Qunits_are_ln(q)
 # LO HI INIT PRIOR PR_type SD PHASE
- 0 5 0.234224 0.01 -1 99 1 # Q_extraSD_6_Onboard
+ 0 5 0.212877 0.01 -1 99 1 # Q_extraSD_6_Onboard
  0 5 0 0.01 -1 99 -1 # Q_extraSD_7_Tag
- 0 5 0.167105 0.01 -1 99 1 # Q_extraSD_8_MRFSS
- 0 5 0.157234 0.01 -1 99 1 # Q_extraSD_9_ORBS
- 0 5 9.97876e-009 0.01 -1 99 1 # Q_extraSD_10_CommLog
- -5 5 -2.4 -1.386 0 0.5 -1 # LnQ_base_7_Tag
+ 0 5 0.294085 0.01 -1 99 1 # Q_extraSD_8_MRFSS
+ 0 5 0.112958 0.01 -1 99 1 # Q_extraSD_9_ORBS
+ 0 5 1.07725e-008 0.01 -1 99 1 # Q_extraSD_10_CommLog
+ -5 5 -0.223474 -1.386 0 0.5 -1 # LnQ_base_7_Tag
 #
 #_size_selex_types
 #discard_options:_0=none;_1=define_retention;_2=retention&mortality;_3=all_discarded_dead
@@ -220,46 +202,46 @@
  15 0 0 3 # 10 CommLog
  11 0 0 0 # 11 Small
 #_LO HI INIT PRIOR PR_type SD PHASE env-var use_dev dev_minyr dev_maxyr dev_stddev Block Block_Fxn
- 15 60 59.8488 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_1P_1_Trawl
- -10 10 -6.19211e-005 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_1P_2_Trawl
- -4 12 5.83886 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_1P_3_Trawl
+ 15 60 48.4235 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_1P_1_Trawl
+ -10 10 -7.7806 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_1P_2_Trawl
+ -4 12 4.85407 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_1P_3_Trawl
  -2 6 2.2 6 -1 99 -4 0 0 0 0 0.5 0 0 # SizeSel_1P_4_Trawl
  -15 10 -10 -3.7 -1 99 -5 0 0 0 0 0.5 0 0 # SizeSel_1P_5_Trawl
  -5 10 5 0.1 -1 99 -4 0 0 0 0 0.5 0 0 # SizeSel_1P_6_Trawl
- -15 15 8.69059 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Peak_Trawl
- -15 15 0.550787 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Ascend_Trawl
- -15 15 0.000103753 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Descend_Trawl
- -15 15 -6.12677e-005 -10 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Final_Trawl
+ -15 15 -2.4323 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Peak_Trawl
+ -15 15 -0.649552 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Ascend_Trawl
+ -15 15 1.5646 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Descend_Trawl
+ -15 15 -11.6326 -10 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Final_Trawl
  -15 15 1 0 -1 10 -5 0 0 0 0 0.5 0 0 # SzSel_1Fem_Scale_Trawl
- 15 50 37.0019 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_2P_1_Live
- -10 10 -3.2128 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_2P_2_Live
- -4 12 3.16852 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_2P_3_Live
- -2 6 4.05163 6 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_2P_4_Live
+ 15 50 41.3721 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_2P_1_Live
+ -10 10 -2.4549 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_2P_2_Live
+ -4 12 3.87657 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_2P_3_Live
+ -2 6 3.16942 6 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_2P_4_Live
  -15 10 -10 -3.7 -1 99 -5 0 0 0 0 0.5 0 0 # SizeSel_2P_5_Live
- -5 10 -3.07543 0.1 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_2P_6_Live
- 15 50 40.6643 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_3P_1_Dead
- -10 10 -8.98463 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_3P_2_Dead
- -4 12 3.88856 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_3P_3_Dead
- -2 6 -1.97048 6 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_3P_4_Dead
+ -5 10 -1.90578 0.1 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_2P_6_Live
+ 15 50 41.923 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_3P_1_Dead
+ -10 10 -2.08735 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_3P_2_Dead
+ -4 12 3.87208 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_3P_3_Dead
+ -2 6 -1.8704 6 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_3P_4_Dead
  -15 10 -10 -3.7 -1 99 -5 0 0 0 0 0.5 0 0 # SizeSel_3P_5_Dead
- -5 10 -0.0827556 0.1 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_3P_6_Dead
- -15 15 -2.46407 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Peak_Dead
- -15 15 -0.453993 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Ascend_Dead
- -15 15 5.83657 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Descend_Dead
- -15 15 -13.0348 -10 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Final_Dead
+ -5 10 3.17645 0.1 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_3P_6_Dead
+ -15 15 -1.19451 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Peak_Dead
+ -15 15 -0.127047 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Ascend_Dead
+ -15 15 4.68465 0 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Descend_Dead
+ -15 15 -14.9659 -10 -1 10 5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Final_Dead
  -15 15 1 0 -1 10 -5 0 0 0 0 0.5 0 0 # SzSel_3Fem_Scale_Dead
- 15 50 37.1514 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_4P_1_RecO
- -10 10 -4.10899 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_4P_2_RecO
- -4 12 3.67069 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_4P_3_RecO
+ 15 50 40.5156 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_4P_1_RecO
+ -10 10 -3.52721 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_4P_2_RecO
+ -4 12 4.00421 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_4P_3_RecO
  -2 6 2.2 6 -1 99 -4 0 0 0 0 0.5 0 0 # SizeSel_4P_4_RecO
  -15 10 -10 -3.7 -1 99 -5 0 0 0 0 0.5 0 0 # SizeSel_4P_5_RecO
  -5 10 10 0.1 -1 99 -4 0 0 0 0 0.5 0 0 # SizeSel_4P_6_RecO
- 15 50 29.224 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_5P_1_RecS
- -10 10 -8.77225 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_5P_2_RecS
- -4 12 4.10605 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_5P_3_RecS
- -2 6 3.49258 6 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_5P_4_RecS
+ 15 50 29.9285 30 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_5P_1_RecS
+ -10 10 -8.54258 -2.6 -1 99 5 0 0 0 0 0.5 0 0 # SizeSel_5P_2_RecS
+ -4 12 4.21483 5.2 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_5P_3_RecS
+ -2 6 3.31734 6 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_5P_4_RecS
  -15 10 -10 -3.7 -1 99 -5 0 0 0 0 0.5 0 0 # SizeSel_5P_5_RecS
- -5 10 -2.11535 0.1 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_5P_6_RecS
+ -5 10 -1.26834 0.1 -1 99 4 0 0 0 0 0.5 0 0 # SizeSel_5P_6_RecS
  -5 5 -1 -1 -1 99 -4 0 0 0 0 0 0 0 # SizeSel_6P_1_Onboard
  -5 5 -1 -1 -1 99 -5 0 0 0 0 0 0 0 # SizeSel_6P_2_Onboard
  1 60 32 32 -1 99 -3 0 0 0 0 0 0 0 # SizeSel_7P_1_Tag
@@ -276,10 +258,10 @@
  -2 6 0 2 -1 99 -5 0 0 0 0 0 0 0 # AgeSel_4P_4_RecO
  -15 10 5 5 -1 99 -5 0 0 0 0 0 0 0 # AgeSel_4P_5_RecO
  -5 10 5 5 -1 99 -5 0 0 0 0 0 0 0 # AgeSel_4P_6_RecO
- -15 15 -3.7731 0 -1 10 5 0 0 0 0 0.5 0 0 # AgeSel_4Fem_Peak_RecO
+ -15 15 2.22154 0 -1 10 5 0 0 0 0 0.5 0 0 # AgeSel_4Fem_Peak_RecO
  -15 15 0 0 -1 10 -5 0 0 0 0 0.5 0 0 # AgeSel_4Fem_Ascend_RecO
- -15 15 3.15624 0 -1 10 5 0 0 0 0 0.5 0 0 # AgeSel_4Fem_Descend_RecO
- -15 15 -8.67618 -10 -1 10 5 0 0 0 0 0.5 0 0 # AgeSel_4Fem_Final_RecO
+ -15 15 2.7241 0 -1 10 5 0 0 0 0 0.5 0 0 # AgeSel_4Fem_Descend_RecO
+ -15 15 -10.0725 -10 -1 10 5 0 0 0 0 0.5 0 0 # AgeSel_4Fem_Final_RecO
  -15 15 1 0 -1 10 -5 0 0 0 0 0.5 0 0 # AgeSel_4Fem_Scale_RecO
  0 7 2 -1 -1 99 -4 0 0 0 0 0 0 0 # AgeSel_11P_1_Small
  2 20 5 -1 -1 99 -5 0 0 0 0 0 0 0 # AgeSel_11P_2_Small

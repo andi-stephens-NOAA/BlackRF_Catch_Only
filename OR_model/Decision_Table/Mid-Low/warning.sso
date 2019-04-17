@@ -1,6 +1,6 @@
 SS-V3.24V-safe;_03/08/2015;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_11.1x64
-Tue Apr 16 10:44:49 2019
+Wed Apr 17 13:56:53 2019
 
-Final gradient: 0.000601642 is larger than final_conv: 0.0001
+Final gradient: 0.00874974 is larger than final_conv: 0.0001
  N warnings: 1
-Number_of_active_parameters_on_or_near_bounds: 3
+Number_of_active_parameters_on_or_near_bounds: 2
